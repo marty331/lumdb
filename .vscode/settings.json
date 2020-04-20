@@ -1,0 +1,15 @@
+{
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "eslint.format.enable": true,
+    "eslint.options": {
+    
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "eslint.codeAction.disableRuleComment": {
+    
+    }
+}
