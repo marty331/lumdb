@@ -52,6 +52,7 @@ export default MovieDetail;
 const MovieWrapper = styled.div`
   position: relative;
   padding-top: 50vh;
+  background-color: 'grey';
   background: url(${(props) => props.backdrop}) no-repeat;
   background-size: cover;
 `;

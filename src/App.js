@@ -12,13 +12,13 @@ const App = () => (
   <Router>
     <div className="App">
       <header className="App-header">
-        <Link to="/">
+        <Link to="/1">
           <img src={logo} className="App-logo" alt="logo" />
         </Link>
       </header>
       <Switch>
-        <Route exact path="/" component={MoviesList} />
-        <Route path="/:id" component={MovieDetail} />
+        <Route exact path="/:page" component={MoviesList} />
+        <Route path="/detail/:id" component={MovieDetail} />
 
       </Switch>
     </div>
